@@ -2,12 +2,14 @@
     box-sizing: border-box;
 }
 
+body {
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+}
 
 /*on every page*/
 
 /*heading of page*/
 header {
-	font-family: 'Georgia', Times, "Times New Roman", serif;
 	width: 100%;
 	height: 160%;
 	margin-bottom: 2%;
@@ -68,7 +70,7 @@ body {
 
 }
 /*connect with me box*/
-#connect {
+aside {
 	float: left;
 	padding: 20px;
 	width: 25%;
@@ -79,8 +81,6 @@ body {
 	border-style: solid;
 	border-width: 1px;
 	border-color: #777;
-
-
 }
 
 #github {
@@ -369,17 +369,23 @@ footer {
 @media only screen and (max-width: 980px) {
     body {
         background-color: lightblue;
+        width: 100%
+        padding: 20px;
     }
 }
 
 @media only screen and (max-width: 768px) {
     body {
         background-color: lightblue;
+        width: 100%
+        padding: 20px;
     }
 }
 
 @media only screen and (max-width: 640px) {
     body {
         background-color: lightblue;
+                width: 100%
+        padding: 20px;
     }
-}*/*/
+}
