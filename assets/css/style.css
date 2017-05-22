@@ -65,6 +65,7 @@ h3 {
 nav {
   float: right;
   margin-top: 25px;
+  margin-right: 20px;
 }
 
 nav a {
@@ -183,23 +184,6 @@ h3,
 }
 
 /*contact me page*/
-#contact {
-	margin-bottom: 10px;
-	color: #777777;
-}
-
-#contactbox {
-	padding: 19px;
-	margin: 5% 10% 9% 10%;
-	height: 40%;
-	width: 40%;
-	float: left;
-	border-color: #dddddd;
-	background-color: #fff;
-	border-style: solid;
-	border-width: 1px;
-	border-color: #777;
-}
 
 /*form container*/
 #contact-form ul {
@@ -245,31 +229,62 @@ input[type=submit] {
 @media only screen and (max-width: 980px) {
     body {
         background-color: lightblue;
+        margin-right: 5%;
     }
 
-    main-container {
+    .container {
     	width: 100%
-        padding: 10px;
+        padding: 20px;
+    }
+
+    .main-section,
+    .sidebar {
+    	width: 100%;
+    }
+
+    .sidebar {
+    	width: 100%;
     }
 }
 
 @media only screen and (max-width: 768px) {
     body {
         background-color: lightblue;
+        margin-right: 5%;
     }
-    main-container {
+
+    .container {
     	width: 100%
-        padding: 10px;
+        padding: 20px;
+    }
+
+    .main-section,
+    .sidebar {
+    	width: 100%;
+    }
+
+    .sidebar {
+    	width: 100%;
     }
 }
 
 @media only screen and (max-width: 640px) {
     body {
         background-color: lightblue;
+        margin-right: 5%;
     }
 
-    main-container {
+    .container {
     	width: 100%
-        padding: 10px;
+        padding: 20px;
+    }
+
+    .main-section,
+    .sidebar {
+    	width: 100%;
+    }
+
+    .sidebar {
+    	width: 100%;
     }
 }
