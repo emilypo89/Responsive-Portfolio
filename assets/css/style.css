@@ -234,7 +234,9 @@ input[type=submit] {
 
     .container {
     	width: 100%
-        padding: 20px;
+      padding: 20px;
+      margin: 0;
+      margin-right: 2%;
     }
 
     .main-section,
@@ -244,6 +246,19 @@ input[type=submit] {
 
     .sidebar {
     	width: 100%;
+      margin: 0;
+    }
+
+    #logo {
+      float: none;
+      width: 100%;
+      height: 100%;
+      padding: 20px;
+    }
+
+    nav {
+      float: none;
+      width: 100%;
     }
 }
 
@@ -255,7 +270,9 @@ input[type=submit] {
 
     .container {
     	width: 100%
-        padding: 20px;
+      padding: 20px;
+      margin: 0;
+      margin-right: 2%;
     }
 
     .main-section,
@@ -265,6 +282,19 @@ input[type=submit] {
 
     .sidebar {
     	width: 100%;
+      margin: 0;
+    }
+
+    #logo {
+      float: none;
+      width: 100%;
+      height: 100%;
+      padding: 20px;
+    }
+
+    nav {
+      float: none;
+      width: 100%;
     }
 }
 
@@ -276,7 +306,9 @@ input[type=submit] {
 
     .container {
     	width: 100%
-        padding: 20px;
+      padding: 20px;
+      margin: 0;
+      margin-right: 2%;
     }
 
     .main-section,
@@ -286,5 +318,18 @@ input[type=submit] {
 
     .sidebar {
     	width: 100%;
+      margin: 0;
+    }
+
+    #logo {
+      float: none;
+      width: 100%;
+      height: 100%;
+      padding: 20px;
+    }
+
+    nav {
+      float: none;
+      width: 100%;
     }
 }
