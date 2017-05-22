@@ -232,8 +232,8 @@ input[type=submit] {
         margin-right: 5%;
     }
 
-    .container {
-    	width: 100%
+    #main-container {
+    	width: 100%;
       padding: 20px;
       margin: 0;
     }
@@ -244,7 +244,6 @@ input[type=submit] {
     	width: 100%;
       margin: 0;
       float: none;
-      margin-right: 0;
     }
 
     .sidebar {
@@ -277,18 +276,18 @@ input[type=submit] {
         margin-right: 5%;
     }
 
-    .container {
-    	width: 100%
+    #main-container {
+    	width: 100%;
       padding: 20px;
       margin: 0;
     }
 
     .main-section,
-    .sidebar {
+    .sidebar,
+    #portfolio {
     	width: 100%;
       margin: 0;
       float: none;
-      margin-right: 0;
     }
 
     .sidebar {
@@ -321,18 +320,18 @@ input[type=submit] {
         margin-right: 5%;
     }
 
-    .container {
-    	width: 100%
+    #main-container {
+    	width: 100%;
       padding: 20px;
       margin: 0;
     }
 
     .main-section,
-    .sidebar {
+    .sidebar,
+    #portfolio {
     	width: 100%;
       margin: 0;
       float: none;
-      margin-right: 0;
     }
 
     .sidebar {
@@ -355,7 +354,7 @@ input[type=submit] {
 
     .work,
     img, h3 {
-      width: 65%;
+      width: 50%;
       padding-top: 5%;
     }
 
